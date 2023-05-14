@@ -10,7 +10,7 @@ https://github.com/mohammednawas8/dfs-visualizer/assets/78867217/7d29552d-ebbf-4
 # Project structure
 This project is divided into 5 files, they are:<br>
 1- algorithms.py : Contains the raw algorithms code. i.e:dfs and depth_limited_search.<br>
-
+<br>
 | function  | usage |
 | ------------- | ------------- |
 | dfs(graph,start,goal)  | Returns the expanded nodes and the final path when visualizing dfs |
