@@ -13,7 +13,7 @@ This project is divided into 5 files, they are:<br><br>
 | function  | usage |
 | ------------- | ------------- |
 | dfs(graph,start,goal)  | Returns the expanded nodes and the final path when visualizing dfs |
-| depth_limited_search(graph,start,goal)  | Returns the expanded nodes and the final path when visualizing depth_limited_search  |
+| depth_limited_search(graph,start,goal)  | Returns the expanded nodes and the final path when visualizing depth limited search  |
 <br>
 
 2- helper.py : Contains helper functions that are commonly used accross the the other files.
@@ -25,5 +25,13 @@ This project is divided into 5 files, they are:<br><br>
 | showGraph()  | Shows up the graph window  |
 | closeGraph()  | Close the graph window  |
 | getEdgesFromGraph()  | This function will get each parent and its children as pairs and group them in a tuple then return them as a list<br>Example: [(1,2),(1,3)] 1 is a parent node that has "2" and "3" as children.  |
+<br>
 
-closeGraph() and showGraph().
+3- visualizers.py : Handles the visualizing proccess.
+| function  | usage |
+| ------------- | ------------- |
+| startVisualizing(graph,visited,path) | Receives the graph, plot it, and colors the expanded/final-path nodes |
+| startDfsVisualizer(graph, start, goal,self)  | Recevies the graph and call dfs() to get the expanded nodes and the final path<br>
+                                                    Update the expanded nodes label, final path label<br>
+                                                    then calls startVisualizing() |
+| startLimitedDFSVisualizer(graph, start,goal,limit,self)  | Content Cell  |
