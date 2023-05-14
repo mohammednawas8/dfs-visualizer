@@ -31,5 +31,6 @@ This project is divided into 5 files, they are:<br><br>
 | function  | usage |
 | ------------- | ------------- |
 | startVisualizing(graph,visited,path) | Receives the graph, plot it, and colors the expanded/final-path nodes |
-| startDfsVisualizer(graph, start, goal,self)  | Recevies the graph and call dfs() to get the expanded nodes and the final path<br>Update the expanded nodes label, final path label<br>then calls startVisualizing() |
-| startLimitedDFSVisualizer(graph, start,goal,limit,self)  | Content Cell  |
+| startDfsVisualizer(graph, start, goal,self)  | -Recevies the graph and call dfs() to get the expanded nodes and the final path<br>-Update the expanded nodes label, final path label<br>-then calls startVisualizing() |
+| startLimitedDFSVisualizer(graph, start,goal,limit,self)  | it does the same thing the startDfsVisualizer() function does but for Limited depth first search |
+| startIteretiveVisualizer(graph, start, goal,depth,self)  | it does the same as the previous functions but it calls dfs() from a for loop that iterate all depths until finding the path |
