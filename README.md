@@ -45,3 +45,6 @@ This project is divided into 5 files, they are:<br><br>
 | selectCheckboxLdfs(self)  | Selects limited dfs and enable the depth text field |
 | selectCheckboxIds(self)  | Selects Iterative deepening search and enable the depth text field |
 | startSearchingInGraph(self)  | Start the visualizing when "Start"  button is clicked |
+<br>
+
+5- GUI.ui : Contains the user interface design code (XML code).
