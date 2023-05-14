@@ -1,0 +1,6 @@
+Those are steps that helped me to build this project:
+
+1- Understand and implement the searching algorithm.
+2- Understand how to plot the graph.
+3- Change the colors of expanded nodes.
+4- Change the colors of the final path.
