@@ -60,8 +60,9 @@ To run this project on your own computer you can follow up with the following st
    - pip install networkx<br>
    - pip install matplotlib<br>
  <br><br>
-- Note that if "pip install" instruction did not work the  try to replace it with "py -m pip", if this doesn't work too i suggest you to refer to this article 
+- Note that if "pip install" instruction did not work then  try to replace it with "py -m pip", if this doesn't work too i suggest you to refer to this article 
 https://pages.github.com/](https://www.technewstoday.com/pip-install-not-working/
 <br><br>
-4. Once you have done the previous steps the program is finally ready to run, Head over to the main.py file and click on the run icon.
-   
+4. Once you have done the previous steps the program is finally ready to run, Head over to the main.py file and click on the run icon.<br>
+
+
