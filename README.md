@@ -51,7 +51,7 @@ This project is divided into 5 files, they are:<br><br>
 <br>
 # How to Run
 To run this project on your own computer you can follow up with the following steps :<br>
--Note that i am using VSCode to install and run the project.
+- Note that i am using VSCode to install and run the project.
 <br>
-*Download this repository and extract the files
+* Download this repository and extract the files
 
