@@ -53,13 +53,15 @@ This project is divided into 5 files, and they are:<br><br>
 To run this project on your own computer you can follow up with the following steps :<br>
 - Note that i am using VSCode to install and run the project.
 <br>
-1. Download this repository and extract the zipped file.<br>
-2. Import the the extracted folder to VSCode or any other IDE.<br>
-3. Open the terminal in VScode or the CMD to download the following libraries:
-   - pip install PyQt5
-   - pip install networkx
-   - pip install matplotlib
+1- Download this repository and extract the zipped file.<br><br>
+2- Import the the extracted folder to VSCode or any other IDE.<br><br>
+3- Open the terminal in VScode or the CMD to download the following libraries:<br>
+   - pip install PyQt5<br>
+   - pip install networkx<br>
+   - pip install matplotlib<br>
+ <br><br>
 - Note that if "pip install" instruction did not work the  try to replace it with "py -m pip", if this doesn't work too i suggest you to refer to this article 
-[How To Fix PIP Install Not Working](https://pages.github.com/](https://www.technewstoday.com/pip-install-not-working/)<br>
+https://pages.github.com/](https://www.technewstoday.com/pip-install-not-working/
+<br><br>
 4. Once you have done the previous steps the program is finally ready to run, Head over to the main.py file and click on the run icon.
    
